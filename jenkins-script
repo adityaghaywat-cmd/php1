@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Code') {
+            steps {
+            
+            git branch: 'main', url: 'https://github.com/adityaghaywat-cmd/php1.git'
+
+            }
+        }
+        
+        stage('Deploy') {
+    steps {
+        sh '''
+            rm -rf /var/www/html/mit/*
+            cp -r ./* /var/www/html/mit/
+            echo "PHP Project Deployed"
+        '''
+    }
+}
+}
+}
+

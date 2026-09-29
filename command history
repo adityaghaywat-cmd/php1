@@ -1,0 +1,110 @@
+clear
+  884  php -v
+  885  clear
+  886  yum install php -y
+  887  clear
+  888  clear
+  889  ls
+  890  cd demo
+  891  ls
+  892  clear
+  893  ls
+  894  mkdir myphp
+  895  cd myphp/
+  896  ls
+  897  clear
+  898  vim home.php
+  899  php home.php 
+  900  vim home.php
+  901  clear
+  902  ls
+  903  php home.php 
+  904  php -S 0.0.0.0:8000
+  905  clear
+  906  php
+  907  clear
+  908  ls
+  909  mv home.php index.php
+  910  ls
+  911  clear
+  912  php -S 0.0.0.0:8000
+  913  clear
+  914  ls
+  915  git init
+  916  clear
+  917  git add *
+  918  git commit -m "First Page"
+  919  git remote add origin https://github.com/adityaghaywat-cmd/php1.git
+  920  git branch -M main
+  921  git push -u origin main
+  922  clear
+  923  cd /etc/nginx/
+  924  ls
+  925  cd conf.d/
+  926  ls
+  927  cat vpcollege.conf 
+  928  clear
+  929  ls
+  930  vim mit-php.conf
+  931  nginx -t
+  932  systemctl reload nginx.service 
+  933  cd /var/www/html/
+  934  ls
+  935  mkdir mit
+  936  clear
+  937  ls -l
+  938  chown -R jenkins:jenkins /var/www/html/mit/
+  939  ls -l
+  940  clear
+  941  vim /etc/hosts
+  942  nginx -
+  943  nginx -t
+  944  clear
+  945  systemctl reload nginx.service 
+  946  clear
+  947  nginx -t
+  948  systemctl reload nginx.service 
+  949  vim /etc/hosts
+  950  cd /etc/nginx/conf.d/
+  951  ls
+  952  vim mit-php.conf 
+  953  nginx -t
+  954  systemctl reload nginx.service 
+  955  clear
+  956  cat mit-php.conf 
+  957  vim mit-php.conf 
+  958  vim /etc/hosts
+  959  nginx -t
+  960  systemctl reload nginx.service 
+  961  clear
+  962  cd /var/www/html/
+  963  ls
+  964  cd mit/
+  965  ls
+  966  php index.php 
+  967  clear
+  968  firewall-cmd --list-all
+  969  firewall-cmd --add-port=8000/tcp --permanent
+  970  firewall-cmd reload
+  971  firewall-cmd --reload
+  972  clear
+  973  cd /etc/nginx/conf.d/
+  974  cat mit-php.conf 
+  975  clear
+  976  cd /var/www/html/
+  977  ls -ls
+  978  cd mit/
+  979  ls
+  980  ls -l
+  981  systemctl status php-fpm
+  982  clear
+  983  systemctl start php-fpm
+  984  systemctl status php-fpm
+  985  clear
+  986  systemctl enable --now php-fpm
+  987  ss -lntp | grep 9000
+  988  clear
+  989  ls
+  990  nginx -t
+  991  systemctl restart nginx
+  992  clear

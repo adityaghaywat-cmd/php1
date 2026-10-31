@@ -12,6 +12,9 @@
         echo "<h2>Hello Aditya!</h2>";
         echo "My First PHP Program<br>";
         echo "PHP Deployment Using Jenkins Freestyle";
+        echo " 1.0.0";
+
+
     ?>
 
     <h3>DevOps Engineer Fresher</h3>

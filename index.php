@@ -17,7 +17,7 @@
     ?>
 
     <h3>DevOps Engineer Fresher</h3>
-    echo " 1.0.0";
+    1.0.0
 
     
     

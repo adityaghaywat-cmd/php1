@@ -17,7 +17,7 @@
     ?>
 
     <h3>DevOps Engineer Fresher </h3>
-    1.0.0
+    2.0.0
 
     
     

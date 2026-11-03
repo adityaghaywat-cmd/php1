@@ -6,7 +6,7 @@
 </head>
 <body>
 
-    <h1>Welcome to PHP Project</h1>
+    <h1>Welcome to PHP1 Project</h1>
 
     <?php
         echo "<h2>Hello Aditya!</h2>";
@@ -16,7 +16,7 @@
 
     ?>
 
-    <h3>DevOps Engineer Fresher</h3>
+    <h3>DevOps Engineer Fresher </h3>
     1.0.0
 
     
